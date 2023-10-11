@@ -6,6 +6,10 @@ buildscript {
             url = "http://files.minecraftforge.net/maven"
         }
         maven {
+            name = "EoA Repository"
+            url = "https://gitlab.com/eras-of-arda/maven-repository/-/raw/master/repo/"
+        }
+        maven {
             name = "sonatype"
             url = "https://oss.sonatype.org/content/repositories/snapshots/"
         }
@@ -14,6 +18,7 @@ buildscript {
         classpath 'net.minecraftforge.gradle:ForgeGradle:1.2-SNAPSHOT'
     }
 }
+
 
 apply plugin: 'forge'
 
@@ -27,21 +32,7 @@ minecraft {
 }
 
 dependencies {
-    // you may put jars on which you depend on in ./libs
-    // or you may define them like so..
-    //compile "some.group:artifact:version:classifier"
-    //compile "some.group:artifact:version"
-        //compileOnly fileTree(dir: 'libs', includes: ['LOTRMod v36.15-deobf.jar'])
-        //compileOnly 'libs/LOTRMod:36.15.deobf.jar'
-        //compileOnly 'libs/LOTRMod:36.15-deobf.jar'
-    // real examples
-    //compile 'com.mod-buildcraft:buildcraft:6.0.8:dev'  // adds buildcraft to the dev env
-    //compile 'com.googlecode.efficient-java-matrix-library:ejml:0.24' // adds ejml to the dev env
-
-    // for more info...
-    // http://www.gradle.org/docs/current/userguide/artifact_dependencies_tutorial.html
-    // http://www.gradle.org/docs/current/userguide/dependency_management.html
-
+    compileOnly files('libs/LOTRMod+v36.15-deobf.jar')
 }
 
 processResources
