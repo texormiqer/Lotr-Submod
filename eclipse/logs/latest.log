@@ -1,38 +1,72 @@
-[03:01:28] [main/INFO]: Setting user: Player769
-[03:01:29] [Client thread/INFO]: LWJGL Version: 2.9.1
-[03:01:39] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:The Lord of the Rings Mod, FMLFileResourcePack:LOTRManhunt
-[03:01:39] [Client thread/INFO]: LOTR: Found logger
-[03:01:39] [Client thread/INFO]: LOTR: Registered 144 packet types
-[03:01:42] [Sound Library Loader/INFO]: Sound engine started
-[03:01:45] [Client thread/INFO]: Created: 1024x1024 textures/blocks-atlas
-[03:01:45] [Client thread/INFO]: Created: 1024x1024 textures/items-atlas
-[03:01:48] [Client thread/INFO]: LOTRLore: Category ruins has loaded 13 lore texts, of which 5 rewardable
-[03:01:48] [Client thread/INFO]: LOTRLore: Category shire has loaded 20 lore texts, of which 11 rewardable
-[03:01:48] [Client thread/INFO]: LOTRLore: Category bree has loaded 14 lore texts, of which 12 rewardable
-[03:01:48] [Client thread/INFO]: LOTRLore: Category blue_mountains has loaded 8 lore texts, of which 5 rewardable
-[03:01:48] [Client thread/INFO]: LOTRLore: Category lindon has loaded 11 lore texts, of which 10 rewardable
-[03:01:48] [Client thread/INFO]: LOTRLore: Category eriador has loaded 14 lore texts, of which 14 rewardable
-[03:01:48] [Client thread/INFO]: LOTRLore: Category rivendell has loaded 24 lore texts, of which 22 rewardable
-[03:01:48] [Client thread/INFO]: LOTRLore: Category eregion has loaded 7 lore texts, of which 6 rewardable
-[03:01:48] [Client thread/INFO]: LOTRLore: Category dunland has loaded 6 lore texts, of which 5 rewardable
-[03:01:48] [Client thread/INFO]: LOTRLore: Category gundabad has loaded 4 lore texts, of which 4 rewardable
-[03:01:48] [Client thread/INFO]: LOTRLore: Category angmar has loaded 5 lore texts, of which 5 rewardable
-[03:01:48] [Client thread/INFO]: LOTRLore: Category woodland_realm has loaded 4 lore texts, of which 4 rewardable
-[03:01:48] [Client thread/INFO]: LOTRLore: Category dol_guldur has loaded 4 lore texts, of which 4 rewardable
-[03:01:48] [Client thread/INFO]: LOTRLore: Category dale has loaded 14 lore texts, of which 12 rewardable
-[03:01:48] [Client thread/INFO]: LOTRLore: Category durins_folk has loaded 13 lore texts, of which 6 rewardable
-[03:01:48] [Client thread/INFO]: LOTRLore: Category lothlorien has loaded 10 lore texts, of which 10 rewardable
-[03:01:48] [Client thread/INFO]: LOTRLore: Category rohan has loaded 5 lore texts, of which 2 rewardable
-[03:01:48] [Client thread/INFO]: LOTRLore: Category isengard has loaded 4 lore texts, of which 3 rewardable
-[03:01:48] [Client thread/INFO]: LOTRLore: Category gondor has loaded 21 lore texts, of which 16 rewardable
-[03:01:48] [Client thread/INFO]: LOTRLore: Category mordor has loaded 6 lore texts, of which 6 rewardable
-[03:01:48] [Client thread/INFO]: LOTRLore: Category dorwinion has loaded 7 lore texts, of which 5 rewardable
-[03:01:48] [Client thread/INFO]: LOTRLore: Category rhun has loaded 9 lore texts, of which 5 rewardable
-[03:01:48] [Client thread/INFO]: LOTRLore: Category harnennor has loaded 12 lore texts, of which 9 rewardable
-[03:01:48] [Client thread/INFO]: LOTRLore: Category southron has loaded 16 lore texts, of which 14 rewardable
-[03:01:48] [Client thread/INFO]: LOTRLore: Category umbar has loaded 18 lore texts, of which 16 rewardable
-[03:01:48] [Client thread/INFO]: LOTRLore: Category nomad has loaded 8 lore texts, of which 5 rewardable
-[03:01:48] [Client thread/INFO]: LOTRLore: Category gulf has loaded 9 lore texts, of which 7 rewardable
-[03:01:48] [Client thread/INFO]: LOTRLore: Category far_harad has loaded 0 lore texts, of which 0 rewardable
-[03:01:48] [Client thread/INFO]: LOTRLore: Category far_harad_jungle has loaded 0 lore texts, of which 0 rewardable
-[03:01:48] [Client thread/INFO]: LOTRLore: Category half_troll has loaded 0 lore texts, of which 0 rewardable
+[11:55:15] [main/INFO]: Setting user: Player22
+[11:55:17] [Client thread/INFO]: LWJGL Version: 2.9.1
+[11:55:25] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:The Lord of the Rings Mod, FMLFileResourcePack:LOTRManhunt
+[11:55:25] [Client thread/INFO]: LOTR: Found logger
+[11:55:25] [Client thread/INFO]: LOTR: Registered 144 packet types
+[11:55:28] [Sound Library Loader/INFO]: Sound engine started
+[11:55:31] [Client thread/INFO]: Created: 1024x1024 textures/blocks-atlas
+[11:55:31] [Client thread/INFO]: Created: 1024x1024 textures/items-atlas
+[11:55:34] [Client thread/INFO]: LOTRLore: Category ruins has loaded 13 lore texts, of which 5 rewardable
+[11:55:34] [Client thread/INFO]: LOTRLore: Category shire has loaded 20 lore texts, of which 11 rewardable
+[11:55:34] [Client thread/INFO]: LOTRLore: Category bree has loaded 14 lore texts, of which 12 rewardable
+[11:55:34] [Client thread/INFO]: LOTRLore: Category blue_mountains has loaded 8 lore texts, of which 5 rewardable
+[11:55:34] [Client thread/INFO]: LOTRLore: Category lindon has loaded 11 lore texts, of which 10 rewardable
+[11:55:34] [Client thread/INFO]: LOTRLore: Category eriador has loaded 14 lore texts, of which 14 rewardable
+[11:55:34] [Client thread/INFO]: LOTRLore: Category rivendell has loaded 24 lore texts, of which 22 rewardable
+[11:55:34] [Client thread/INFO]: LOTRLore: Category eregion has loaded 7 lore texts, of which 6 rewardable
+[11:55:34] [Client thread/INFO]: LOTRLore: Category dunland has loaded 6 lore texts, of which 5 rewardable
+[11:55:34] [Client thread/INFO]: LOTRLore: Category gundabad has loaded 4 lore texts, of which 4 rewardable
+[11:55:34] [Client thread/INFO]: LOTRLore: Category angmar has loaded 5 lore texts, of which 5 rewardable
+[11:55:34] [Client thread/INFO]: LOTRLore: Category woodland_realm has loaded 4 lore texts, of which 4 rewardable
+[11:55:34] [Client thread/INFO]: LOTRLore: Category dol_guldur has loaded 4 lore texts, of which 4 rewardable
+[11:55:34] [Client thread/INFO]: LOTRLore: Category dale has loaded 14 lore texts, of which 12 rewardable
+[11:55:34] [Client thread/INFO]: LOTRLore: Category durins_folk has loaded 13 lore texts, of which 6 rewardable
+[11:55:34] [Client thread/INFO]: LOTRLore: Category lothlorien has loaded 10 lore texts, of which 10 rewardable
+[11:55:34] [Client thread/INFO]: LOTRLore: Category rohan has loaded 5 lore texts, of which 2 rewardable
+[11:55:34] [Client thread/INFO]: LOTRLore: Category isengard has loaded 4 lore texts, of which 3 rewardable
+[11:55:34] [Client thread/INFO]: LOTRLore: Category gondor has loaded 21 lore texts, of which 16 rewardable
+[11:55:34] [Client thread/INFO]: LOTRLore: Category mordor has loaded 6 lore texts, of which 6 rewardable
+[11:55:34] [Client thread/INFO]: LOTRLore: Category dorwinion has loaded 7 lore texts, of which 5 rewardable
+[11:55:34] [Client thread/INFO]: LOTRLore: Category rhun has loaded 9 lore texts, of which 5 rewardable
+[11:55:34] [Client thread/INFO]: LOTRLore: Category harnennor has loaded 12 lore texts, of which 9 rewardable
+[11:55:34] [Client thread/INFO]: LOTRLore: Category southron has loaded 16 lore texts, of which 14 rewardable
+[11:55:34] [Client thread/INFO]: LOTRLore: Category umbar has loaded 18 lore texts, of which 16 rewardable
+[11:55:34] [Client thread/INFO]: LOTRLore: Category nomad has loaded 8 lore texts, of which 5 rewardable
+[11:55:34] [Client thread/INFO]: LOTRLore: Category gulf has loaded 9 lore texts, of which 7 rewardable
+[11:55:34] [Client thread/INFO]: LOTRLore: Category far_harad has loaded 0 lore texts, of which 0 rewardable
+[11:55:34] [Client thread/INFO]: LOTRLore: Category far_harad_jungle has loaded 0 lore texts, of which 0 rewardable
+[11:55:34] [Client thread/INFO]: LOTRLore: Category half_troll has loaded 0 lore texts, of which 0 rewardable
+[11:56:23] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:The Lord of the Rings Mod, FMLFileResourcePack:LOTRManhunt
+[11:56:23] [Client thread/INFO]: Created: 1024x1024 textures/items-atlas
+[11:56:25] [Client thread/INFO]: Created: 1024x1024 textures/blocks-atlas
+[11:56:26] [Sound Library Loader/INFO]: Sound engine started
+[11:56:41] [Client thread/INFO]: Deleting level New World-
+[11:56:41] [Client thread/INFO]: Attempt 1...
+[11:56:42] [Client thread/INFO]: Deleting level New World
+[11:56:42] [Client thread/INFO]: Attempt 1...
+[11:56:46] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
+[11:56:46] [Server thread/INFO]: Generating keypair
+[11:56:46] [Server thread/INFO]: Converting map!
+[11:56:46] [Server thread/INFO]: Scanning folders...
+[11:56:46] [Server thread/INFO]: Total conversion count is 0
+[11:56:47] [Server thread/WARN]: Unable to find spawn biome
+[11:56:51] [Server thread/INFO]: Preparing start region for level 0
+[11:56:52] [Server thread/INFO]: Preparing spawn area: 18%
+[11:56:53] [Server thread/INFO]: Preparing spawn area: 43%
+[11:56:54] [Server thread/INFO]: Preparing spawn area: 73%
+[11:56:56] [Server thread/INFO]: Changing view distance to 12, from 10
+[11:56:56] [Server thread/INFO]: Player22[local:E:df4636e7] logged in with entity id 111 at (-197.5, 65.0, 250.5)
+[11:56:56] [Server thread/INFO]: Player22 joined the game
+[11:57:07] [Server thread/INFO]: Player22 has just earned the Middle-earth achievement [To the Sea!]
+[11:57:07] [Server thread/INFO]: Player22 has just earned the Middle-earth achievement [First Steps]
+[11:57:07] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 10657ms behind, skipping 213 tick(s)
+[11:57:07] [Server thread/INFO]: Saving and pausing game...
+[11:57:07] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[11:57:08] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[11:57:08] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[11:57:08] [Server thread/INFO]: Saving chunks for level 'New World'/Utumno
+[11:57:08] [Server thread/INFO]: Saving chunks for level 'New World'/MiddleEarth
+[11:57:59] [Client thread/INFO]: [CHAT] Player22 has just earned the Middle-earth achievement [To the Sea!]
+[11:57:59] [Client thread/INFO]: [CHAT] Player22 has just earned the Middle-earth achievement [First Steps]
+[11:58:08] [Client thread/INFO]: Stopping!
+[11:58:08] [Client Shutdown Thread/INFO]: Stopping server

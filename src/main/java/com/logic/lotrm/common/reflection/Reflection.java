@@ -71,15 +71,16 @@ public class Reflection
         }
 
     }
-    /*
-    * Moves the mapRegion of a Faction based on a scale
-     */
-    public static void moveLOTRMapRegion(LOTRFaction faction, LOTRMapRegion lotrMapRegion)
+    public static class FactionReflection
     {
-        ReflectionHelper.setPrivateValue(LOTRFaction.class, faction, lotrMapRegion =
-                new LOTRMapRegion(lotrMapRegion.mapX, lotrMapRegion.mapY, lotrMapRegion.radius), "factionMapInfo");
+        /*
+         * Moves the mapRegion of a Faction based on a scale
+         */
+        public static void moveLOTRMapRegion(LOTRFaction faction, LOTRMapRegion lotrMapRegion, int scale)
+        {
+            ReflectionHelper.setPrivateValue(LOTRFaction.class, faction, new LOTRMapRegion(lotrMapRegion.mapX/scale, lotrMapRegion.mapY/scale, lotrMapRegion.radius/scale), "factionMapInfo");
+        }
     }
-
     /*
      * Clears road database
      */
