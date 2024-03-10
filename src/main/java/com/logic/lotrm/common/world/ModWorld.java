@@ -21,7 +21,6 @@ public class ModWorld
         {
             changeWaypoints();
             changeMapLabelsPosition();
-
         }
         public static void init()
         {
@@ -121,5 +120,4 @@ public class ModWorld
              Reflection.Roads.registerRoad("JungleLakeRoad", LOTRWaypoint.JUNGLE_LAKES, LOTRWaypoint.JUNGLE_CITY_EAST, LOTRWaypoint.HARADUIN_BRIDGE, LOTRWaypoint.OLD_JUNGLE_RUIN);
         }
     }
-
 }

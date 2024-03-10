@@ -22,7 +22,9 @@ import java.io.IOException;
 import java.lang.reflect.Field;
 
 import java.lang.reflect.Method;
+import java.nio.file.Files;
 import java.util.Enumeration;
+import java.util.Objects;
 import java.util.zip.ZipEntry;
 import java.util.zip.ZipFile;
 
@@ -42,8 +44,8 @@ public class ModUtils
             String imageName = "assets/" + modID + "/" + mapPath;
             ModContainer mc = FMLCommonHandler.instance().findContainerFor(LOTRManHunt.instance);
             if (!mc.getSource().isFile()) {
-                File file = new File(LOTRManHunt.class.getResource("/" + imageName).toURI());
-                biomeImage = ImageIO.read(new FileInputStream(file));
+                File file = new File(Objects.requireNonNull(LOTRManHunt.class.getResource("/" + imageName)).toURI());
+                biomeImage = ImageIO.read(Files.newInputStream(file.toPath()));
             } else {
                 ZipFile zip = new ZipFile(mc.getSource());
                 Enumeration<? extends ZipEntry> entries = zip.entries();
@@ -120,11 +122,5 @@ public class ModUtils
         } catch (Exception e) {
             throw new RuntimeException(e);
         }
-    }
-
-    public static void changeFactionMapRegions()
-    {
-        for(LOTRFaction fac: LOTRFaction.values())
-            Reflection.FactionReflection.moveLOTRMapRegion(fac, fac.factionMapInfo, 8);
     }
 }

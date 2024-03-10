@@ -10,6 +10,7 @@ import lotr.common.world.map.LOTRRoads;
 import lotr.common.world.map.LOTRWaypoint;
 
 import java.lang.reflect.Constructor;
+import java.lang.reflect.Field;
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 
@@ -78,8 +79,31 @@ public class Reflection
          */
         public static void moveLOTRMapRegion(LOTRFaction faction, LOTRMapRegion lotrMapRegion, int scale)
         {
-            ReflectionHelper.setPrivateValue(LOTRFaction.class, faction, new LOTRMapRegion(lotrMapRegion.mapX/scale, lotrMapRegion.mapY/scale, lotrMapRegion.radius/scale), "factionMapInfo");
+            try
+            {
+                // Get the field named "factionMapInfo" from the LOTRFaction class
+                Field factionMapInfoField = LOTRFaction.class.getDeclaredField("factionMapInfo");
+                factionMapInfoField.setAccessible(true); // Set the field accessible
+
+                // Get the current value of the field from the faction object
+                Object fieldValue = factionMapInfoField.get(faction);
+
+                // Create a new instance of LOTRMapRegion with scaled values
+                LOTRMapRegion scaledMapRegion = new LOTRMapRegion(
+                        lotrMapRegion.mapX / scale,
+                        lotrMapRegion.mapY / scale,
+                        lotrMapRegion.radius / scale
+                );
+
+                // Set the scaledMapRegion as the value of the factionMapInfo field
+                factionMapInfoField.set(faction, scaledMapRegion);
+            }
+            catch (NoSuchFieldException | IllegalAccessException e)
+            {
+                e.printStackTrace(); // Handle or log the exception as needed
+            }
         }
+
     }
     /*
      * Clears road database
